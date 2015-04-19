@@ -14,7 +14,7 @@ import java.util.List;
 public class AmazonHome extends Base {
     @Test(dataProvider = "search", dataProviderClass = AmazonSearch.class)
     public void testSearch (String category, String name){
-
+        System.out.println(driver.getCurrentUrl());
         AmazonSearch search = new AmazonSearch();
         search.setCategory(category);
         search.setName(name);
