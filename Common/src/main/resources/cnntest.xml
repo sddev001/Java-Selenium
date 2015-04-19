@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testing.org/testing 3.0.014">
+
+<suite name="Cnn test on Web Browser">
+
+    <parameter name ="url" value = "http://www.cnn.com"/>
+    <test name = "Cnn Home page">
+        <classes>
+            <class name="CnnHome"/>
+        </classes>
+    </test>
+</suite>

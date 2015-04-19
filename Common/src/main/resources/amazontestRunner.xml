@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testing.org/testing 3.0.014">
+
+<suite name="Amazon test on Web Browser">
+
+<parameter name ="url" value = "http://www.amazon.com"/>
+    <test name = "Amazon Home page">
+        <classes>
+                <class name="AmazonHome"/>
+        </classes>
+    </test>
+</suite>
+
