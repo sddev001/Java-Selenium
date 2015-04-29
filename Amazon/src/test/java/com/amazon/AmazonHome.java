@@ -10,6 +10,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import java.util.List;
+import homeFeatures.AmazonSearch;
+import homeFeatures.AmazonData;
 
 public class AmazonHome extends Base {
     @Test(dataProvider = "search", dataProviderClass = AmazonSearch.class)

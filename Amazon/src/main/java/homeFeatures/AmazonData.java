@@ -1,4 +1,4 @@
-package com.amazon;
+package homeFeatures;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -32,3 +32,4 @@ public class AmazonData {
                 clickSearch();
     }
 }
+

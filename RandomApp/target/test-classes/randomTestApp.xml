@@ -1,22 +1,14 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Amazon test on Web browser" >
+<suite name="W3schools.com test on Web browser" >
 
-    <parameter name = "useSauceLabs" value = "true"/>
-    <parameter name = "userName" value = "sddev001"/>
-    <parameter name = "key" value = "fedce925-0914-4f51-9d58-296388ad528a"/>
-    <parameter name = "os" value = "WIN8"/>
-    <parameter name = "browserName" value = "firefox"/>
-    <parameter name = "browserVersion" value = "35"/>
     <parameter name = "url" value = "http://www.w3schools.com/sql/sql_select.asp"/>
 
 
-    <test name = "Amazon Home Page ">
+    <test name = " Random ">
         <classes>
-            <!--
-            <class name="com.amazon.SignUp"/>
-            -->
-            <class name="TableCell" />
+            <class name="TableCell"/>
         </classes>
     </test>
+
 </suite>

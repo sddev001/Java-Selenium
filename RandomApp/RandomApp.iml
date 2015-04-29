@@ -15,5 +15,7 @@
     <orderEntry type="library" name="libs" level="application" />
     <orderEntry type="library" name="opencsv-2.3" level="application" />
     <orderEntry type="library" scope="TEST" name="selenium-server-standalone-2.45.0" level="application" />
+    <orderEntry type="library" name="poi-3" level="application" />
+    <orderEntry type="module" module-name="Common" scope="TEST" />
   </component>
 </module>

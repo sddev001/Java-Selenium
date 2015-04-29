@@ -6,7 +6,7 @@
 
     <test name = " Cnn Home Page ">
         <classes>
-            <class name="CnnHome"/>
+            <class name="TechNewsConnect"/>
         </classes>
     </test>
 

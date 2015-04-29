@@ -1,4 +1,4 @@
-package com.amazon;
+package homeFeatures;
 
 import org.testng.annotations.DataProvider;
 
